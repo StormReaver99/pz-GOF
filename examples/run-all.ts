@@ -6,7 +6,9 @@ import { AdmissionFacade } from '../src/structural/facade/AdmissionFacade';
 import { BasicCourse, OnlineDecorator, TestDecorator } from '../src/structural/decorator/CourseDecorator';
 import { Dean, Student } from '../src/behavioral/observer/NotificationSystem';
 import { StudentGpa, SimpleGpa, WeightedGpa } from '../src/behavioral/strategy/GpaStrategy';
-import { StudentList, ExpelCommand, DeanOffice } from '../src/behavioral/command/DeanCommand';
+import { StudentList } from '../src/behavioral/command/StudentList';
+import { ExpelCommand } from '../src/behavioral/command/ExpelCommand';
+import { DeanOffice } from '../src/behavioral/command/DeanOffice';
 
 console.log('=== 1. SINGLETON — Реєстр університету ===');
 const registry = UniversityRegistry.getInstance();

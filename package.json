@@ -4,7 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node examples/run-all.ts"
+    "start": "ts-node examples/run-all.ts",
+    "demo:singleton": "ts-node examples/demo-singleton.ts",
+  "demo:factory": "ts-node examples/demo-factory.ts",
+  "demo:builder": "ts-node examples/demo-builder.ts",
+  "demo:adapter": "ts-node examples/demo-adapter.ts",
+  "demo:facade": "ts-node examples/demo-facade.ts",
+  "demo:decorator": "ts-node examples/demo-decorator.ts",
+  "demo:observer": "ts-node examples/demo-observer.ts",
+  "demo:strategy": "ts-node examples/demo-strategy.ts",
+  "demo:command": "ts-node examples/demo-command.ts"
+    
   },
   "keywords": [],
   "author": "",
